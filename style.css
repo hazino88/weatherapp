@@ -6,14 +6,11 @@ body {
   color: #707070;
   margin: 0;
   padding: 0;
-  ;
-}
-body#bg-img {
-  background: url(.../img/cloudysky.jpg);
-  background: rgba(68, 68, 68, 0.9), url(../img/backgroundimg.jpg);
-  background-attachment: fixed;
+  background-image: url('https://wallpapercave.com/wp/wp4789576.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .container {
   max-width: 400px;
