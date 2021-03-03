@@ -29,6 +29,11 @@ updateWeatherApp = (city) => {
               <p class="low">${spitOutCelcius(city.main.temp_min)}&deg;C</p>
             </div>
           </div>
+if (location.protocol === 'http:') {
+   url = 'http://api.openweathermap.org/data/2.5/weather?lat=21.1682895&lon=-101.6723306&units=imperial&APPID=ec50a6072ac189dee111acdd3a38ab9f';
+} else {
+   url = 'https://api.openweathermap.org/data/2.5/weather?lat=21.1682895&lon=-101.6723306&units=imperial&APPID=ec50a6072ac189dee111acdd3a38ab9f';
+}
 
           <div class="icon-container card shadow mx-auto">
             <img src="${iconSrc}" alt="" />
